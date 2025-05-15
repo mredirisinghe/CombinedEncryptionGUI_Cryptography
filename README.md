@@ -1,6 +1,9 @@
 Project Description: Combined Encryption Tool
+
 This Java Swing application provides a simple interface for encrypting and decrypting text using two common algorithms:
+
 Caesar Cipher: A basic substitution cipher where each letter in the plaintext is shifted a certain number of positions down the alphabet.
+
 AES (Advanced Encryption Standard): A symmetric block cipher widely used for secure data encryption.
 
 Features
@@ -30,3 +33,5 @@ Important NotesSecurity: This application is intended for educational and demons
 It does not implement secure key management practices.  For production systems, use robust key management solutions.
 AES Key Handling: The AES key is generated within the application and displayed for the user.  
 This is not secure for real-world use.Error Handling: The application includes basic error handling, such as checking for invalid Caesar cipher keys.
+
+
